@@ -1,0 +1,21 @@
+{
+  "name": "project001",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "repository": "git@github.com:caneladeouro/execute-commanda-tray.git",
+  "author": "Matheus dos Santos Bonifácio <caneladeouro10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --project tsconfig.json",
+    "dev": "npm run compile && electron ."
+  },
+  "dependencies": {
+    "electron": "^11.1.1",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.2.29"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
