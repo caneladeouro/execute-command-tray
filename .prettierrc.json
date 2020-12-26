@@ -1,0 +1,19 @@
+{
+  "overrides": [
+    {
+      "files": ["src/**/*.ts"],
+      "options": {
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ["src/**/*.json"],
+      "options": {
+        "tabWidth": 2,
+        "semi": true
+      }
+    }
+  ]
+}
